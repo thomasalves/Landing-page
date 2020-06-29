@@ -1,3 +1,7 @@
+html{
+    font-family: sans-serif;
+}
+
 .landing{
     display: flex;
     flex-direction: column;
