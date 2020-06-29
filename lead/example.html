@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="style.css" rel="stylesheet">
+
+  </head>
+  <body>
+
+
+    <h1>Capitação de Leads</h1>
+    <div class="landing">
+   <div class="card">
+    <div> <h3>Nome: </h3>
+    </div>
+    <div class="name">
+      <form method="POST" action="URL do seu time">
+            <input
+        name="name"
+        type="text"
+        pattern="^\D{2,}\s[\D\s]{2,}$"
+        title="Digite seu nome completo"
+        required
+      />
+
+    </div>
+
+    <div>
+      <h3>Email: </h3>
+    </div>
+    <div class="email">
+
+     <input
+        name="email"
+        type="email"
+        title="Digite um email válido"
+        required
+      />
+    </div>
+
+    <div class="button">
+      <input name="redirectTo" type="hidden" value="https://gama.academy" />
+      <input name="debugMode" type="hidden" value="true" />
+      <input class="botao" type="submit" />
+    </div>
+    </form>
+  </div>
+</div>
+
+  </body>
+</html>
