@@ -29,7 +29,6 @@ button {
 }
 
 .presentation-content {
-  margin-top: 10px;
   width: 90vw;
   display: flex;
   justify-content: space-around;
@@ -285,11 +284,15 @@ footer {
     line-height: 40px;
   }
 
+  .corner-img {
+    width: 70%;
+  }
+
   .presentation-content {
-    width: 100vw;
+    width: 90vw;
     align-items: flex-end;
     justify-content: flex-end;
-    margin-top: 20%;
+    margin-top: 10%;
   }
 
   .form-newsletter {
