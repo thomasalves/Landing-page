@@ -1,55 +1,76 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-171266386-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-    <link href="style.css" rel="stylesheet">
+      gtag("config", "UA-171266386-1");
+    </script>
 
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;900&family=Roboto:wght@400;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>U-Do Brasil</title>
   </head>
   <body>
-
-
-    <h1>Capitação de Leads</h1>
-    <div class="landing">
-   <div class="card">
-    <div> <h3>Nome: </h3>
-    </div>
-    <div class="name">
-      <form method="POST" action="https://smtl.gama.academy/leads/bfef0a20-b7e1-11ea-8228-89cff86db9a0">
-            <input
-        name="name"
-        type="text"
-        pattern="^\D{2,}\s[\D\s]{2,}$"
-        title="Digite seu nome completo"
-        placeholder="Digite seu nome completo"
-        required
-      />
-
-    </div>
-
-    <div>
-      <h3>Email: </h3>
-    </div>
-    <div class="email">
-
-     <input
-        name="email"
-        type="email"
-        title="Digite um email válido"
-        placeholder="Digite seu email"
-        required
+    <div class="corner-img-container">
+      <img
+        src="./assets/topo-desktop-1.svg"
+        alt="Imagem Lateral, Decoração."
+        class="corner-img"
       />
     </div>
 
-    <div class="button">
-      <input name="redirectTo" type="hidden" value="" />
-      <input name="debugMode" type="hidden" value="true" />
-      <input class="botao" type="submit" />
-    </div>
-    </form>
-  </div>
-</div>
+    <section class="presentation-content">
+      <h1 class="main-title">
+        Informação e diversão<br />em um minuto,<br />na palma da sua mão!
+      </h1>
+      <img
+        src="./assets/girl.svg"
+        alt="Ilustração de uma garota em um celular."
+        class="girl-img"
+      />
+    </section>
 
+    <section class="form-newsletter">
+      <img
+        src="./assets/person-desktop-1.svg"
+        alt="Ilustração de uma garota gravando um vídeo."
+        class="person-img"
+      />
+      <div class="form-container">
+        <h1 class="form-title">A hora é agora!</h1>
+        <h3 class="form-main-desc">Chegou a sua vez de brilhar!</h3>
+        <p class="form-sub-desc">
+          Qualquer um pode ser criador de conteúdo, basta querer! E foi pensando
+          nisso que criamos um material em PDF cheio de dicas para você começar
+          começar hoje mesmo!
+        </p>
+        <h4 class="form-calltoaction">
+          Crie conteúdo de qualidade de forma simples!
+        </h4>
+        <form action="#">
+          <input type="text" placeholder="Nome e Sobrenome *" class="input" />
+          <input type="text" placeholder="E-mail *" class="input" />
+          <button type="submit" class="btn">Baixe agora o pdf!</button>
+        </form>
+      </div>
+    </section>
+    <footer>
+      <img src="./assets/brand-without-text.svg" alt="Logo do U-Do." />
+    </footer>
   </body>
 </html>
