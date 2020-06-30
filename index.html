@@ -157,9 +157,9 @@
         <h4 class="form-calltoaction">
           Crie conteúdo de qualidade de forma simples!
         </h4>
-        <form action="#">
-          <input type="text" placeholder="Nome e Sobrenome *" class="input" />
-          <input type="text" placeholder="E-mail *" class="input" />
+        <form method="POST" action="#">
+          <input name="name" type="text" pattern="^\D{2,}\s[\D\s]{2,}$" title="Digite seu nome completo" placeholder="Nome e Sobrenome *" class="input" required />
+          <input name="email" type="email" title="Digite um email válido" placeholder="E-mail *" class="input" required />
           <button type="submit" class="btn btn-yellow">
             Baixe agora o pdf!
           </button>
