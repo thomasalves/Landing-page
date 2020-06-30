@@ -81,6 +81,7 @@ button {
   font-family: "Montserrat";
   text-align: center;
   font-size: 2em;
+  color: #54445b;
   margin: 1%;
   font-weight: 600;
 }
@@ -88,6 +89,7 @@ button {
 .form-main-desc {
   font-family: "Montserrat";
   text-align: center;
+  color: #54445b;
   font-size: 1.4em;
   margin: 1%;
   font-weight: 600;
@@ -95,6 +97,7 @@ button {
 
 .form-sub-desc {
   font-family: "Roboto";
+  color: #54445b;
   text-align: center;
   font-size: 26px;
   margin: 2%;
@@ -104,6 +107,7 @@ button {
 .form-calltoaction {
   font-family: "Roboto";
   font-weight: 900;
+  color: #54445b;
   font-size: 26px;
   line-height: 30px;
   text-align: center;
@@ -131,47 +135,117 @@ form {
 }
 
 .btn {
-  background: #fbd157;
   border-radius: 25px;
   border: 0;
   padding: 15px;
   margin: 1%;
   width: 60%;
-
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 600;
   font-size: 1.2em;
-
-  color: #54445b;
   mix-blend-mode: normal;
-
   transition: all 0.6s;
 }
 
-.btn:hover {
+.btn-yellow {
+  background: #fbd157;
+  color: #54445b;
+}
+
+.btn-yellow:hover {
   background: #54445b;
-  color: white;
+  color: #fbd157;
+}
+
+.btn-purple {
+  background: #54445b;
+  color: #fbd157;
+}
+
+.btn-purple:hover {
+  background: #fbd157;
+  color: #54445b;
+}
+
+.second-form {
+  display: flex;
+  padding: 5% 20%;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+
+.second-form-title {
+  font-family: "Montserrat";
+  font-size: 2em;
+  margin: 3%;
+  font-weight: 600;
+  color: #54445b;
+}
+
+.second-form-slogan {
+  font-family: "Montserrat";
+  font-weight: 600;
+  margin: 3%;
+  font-size: 1.6em;
+  color: #54445b;
+}
+
+.second-form-desc {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.4em;
+  margin: 3%;
+  line-height: 30px;
+  text-align: center;
+  margin: 2%;
+
+  color: #54445b;
+}
+
+.block-texts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+}
+
+.block-form {
+  flex: 1;
+}
+
+.second-form-illustration {
+  width: 80%;
+}
+
+.second-form-element {
+  background: #fbd157;
+  border-radius: 44px;
+  padding: 30px 15px;
 }
 
 .quemSomos {
   font-family: "Montserrat";
-  font-style: normal;
-  font-weight: 900px;
-  font-size: 74px;
-  line-height: 78px;
+  font-weight: 900;
   display: flex;
   justify-content: center;
   align-items: center;
   color: #54445b;
-  font-size: 3.5rem;
+  height: 150px;
+  font-size: 2.6rem;
   background-color: #fbd157;
-  height: 200px;
 }
 .visao {
   display: flex;
   margin-bottom: 200px;
 }
+
+.whoami {
+  text-align: center;
+}
+
 #logo-fim {
   margin-top: -55px;
   width: 500px;
@@ -240,5 +314,20 @@ footer {
 
   .visao {
     flex-direction: column;
+  }
+
+  .second-form {
+    flex-direction: column;
+    padding: 5% 1%;
+  }
+
+  #logo-fim {
+    width: 30%;
+    max-width: 200px;
+  }
+
+  .visao {
+    justify-content: center;
+    align-items: center;
   }
 }
