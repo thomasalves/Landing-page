@@ -201,7 +201,7 @@ footer {
   display: none;
 }
 
-@media only screen and (max-width: 1225px) {
+@media only screen and (max-width: 1120px) {
   .girl-img {
     display: none;
   }
