@@ -2,11 +2,13 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  outline: 0;
 }
 
 html,
 body {
   min-height: 100%;
+  min-width: fit-content;
 }
 
 body {
@@ -34,8 +36,6 @@ button {
   display: flex;
   justify-content: space-around;
   align-items: center;
-
-
 }
 
 .girl-img {
@@ -45,7 +45,6 @@ button {
   max-width: 330px;
   height: auto;
   margin-right: 0px;
-
 }
 
 .main-title {
@@ -53,11 +52,10 @@ button {
   margin-left: 100px;
   font-family: "Montserrat";
   font-style: normal;
-  font-weight: 900px;
+  font-weight: 900;
   font-size: 4rem;
   line-height: 80px;
   color: #54445b;
-
 }
 
 .form-newsletter {
@@ -156,9 +154,7 @@ form {
   color: white;
 }
 
-
-
-.quemSomos{
+.quemSomos {
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 900px;
@@ -172,18 +168,17 @@ form {
   background-color: #fbd157;
   height: 200px;
 }
-.visao{
+.visao {
   display: flex;
   margin-bottom: 200px;
 }
-#logo-fim{
+#logo-fim {
   margin-top: -55px;
   width: 500px;
   height: 350px;
 }
 
-#textoQuemSomos{
-
+#textoQuemSomos {
   font-family: "Roboto";
   font-style: normal;
   font-weight: normal;
@@ -192,7 +187,6 @@ form {
   text-align: center;
   margin: 50px 60px;
   color: #54445b;
-
 }
 
 footer {
@@ -201,4 +195,50 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.form-newsletter-mobile {
+  display: none;
+}
+
+@media only screen and (max-width: 1225px) {
+  .girl-img {
+    display: none;
+  }
+
+  .main-title {
+    margin: 10% 5%;
+    text-align: right;
+    font-size: 2em;
+    line-height: 40px;
+  }
+
+  .presentation-content {
+    width: 100vw;
+    align-items: flex-end;
+    justify-content: flex-end;
+  }
+
+  .form-newsletter {
+    display: none;
+  }
+
+  .form-newsletter-mobile {
+    padding: 15% 0;
+    display: block;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+  }
+
+  .person-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .visao {
+    flex-direction: column;
+  }
 }
