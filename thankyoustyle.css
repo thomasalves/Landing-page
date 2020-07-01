@@ -309,7 +309,7 @@
     }
 
     .main-title {
-      margin: 10% 8%;
+      margin: 10% 6%;
       text-align: right;
 
       font-size: 2rem;
@@ -374,14 +374,14 @@
 .form-sub-desc{
 
     justify-content: center;
-    width: 300px;
+
 
     font-size: 1.5rem;
     line-height: 50px;
 }
 
 .form-calltoaction{
-  width: 400px;
+
   justify-content: center;
 }
 .input{
