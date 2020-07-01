@@ -1,0 +1,395 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+  }
+
+  html,
+  body {
+    min-height: 100%;
+  }
+
+  body {
+    -webkit-font-smoothing: antialiased !important;
+  }
+
+  button {
+    cursor: pointer;
+  }
+
+  .corner-img-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  .corner-img {
+    width: 100%;
+  }
+
+  .presentation-content {
+    width: 90vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 70px;
+      margin: 30px;
+  }
+
+  .girl-img {
+    margin-top: 175px;
+    margin-left: 10px;
+    width: 100%;
+    max-width: 330px;
+    height: auto;
+    margin-right: 0px;
+  }
+
+  .main-title {
+    margin-top: 40px;
+    margin-left: 110px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 4rem;
+    line-height: 80px;
+    color: #54445b;
+  }
+
+  .form-newsletter {
+    display: flex;
+    padding: 5% 20%;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+  }
+
+  .person-img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+  }
+
+  .form-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .form-title {
+    font-family: "Montserrat";
+    text-align: center;
+    font-size: 4em;
+    margin-bottom: 30px;
+    color: #54445b;
+    margin: 1%;
+    font-weight: 600;
+  }
+
+  .form-main-desc {
+    font-family: "Montserrat";
+    text-align: center;
+    color: #54445b;
+    font-size: 3rem;
+    width:  800px;
+    margin: 1%;
+    font-weight: 600;
+
+
+  }
+
+  .form-sub-desc {
+    font-family: "Roboto";
+    color: #54445b;
+    text-align: center;
+    font-size: 26px;
+    margin: 2%;
+    line-height: 30px;
+    margin-top: 20px;
+  }
+
+  .form-calltoaction {
+    font-family: "Roboto";
+    font-weight: normal;
+    color: #54445b;
+    font-size: 26px;
+    line-height: 30px;
+    text-align: center;
+    margin: 4%;
+  }
+
+  .input {
+    display: block;
+    width: 90%;
+    padding: 15px;
+    margin: 5px;
+
+    border: 0;
+    background: #f2f2f2;
+    border-radius: 15px;
+    font-size: 1.2em;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .btn {
+    border-radius: 25px;
+    border: 0;
+    padding: 15px;
+    margin: 1%;
+    width: 60%;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.2em;
+    mix-blend-mode: normal;
+    transition: all 0.6s;
+  }
+
+  .btn-yellow {
+    background: #fbd157;
+    color: #54445b;
+  }
+
+  .btn-yellow:hover {
+    background: #54445b;
+    color: #fbd157;
+
+  }
+
+  .btn-purple {
+    background: #54445b;
+    color: white;
+
+  }
+
+  .btn-purple:hover {
+    background: #fbd157;
+    color: #54445b;
+  }
+  .call{
+      color: #54445b;
+      display: flex;
+      justify-content: center;
+      font-size: 50px;
+      font-weight: bold;
+      font-family: "Montserrat";
+      margin: 30px;
+  }
+
+  .second-form {
+    display: flex;
+    padding: 5% 20%;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    flex-direction: row-reverse;
+    margin-bottom: 150px;
+    margin-right: 50px;
+  }
+
+  .second-form-title {
+    font-family: "Montserrat";
+    font-size: 3rem;
+    margin: 3%;
+    font-weight: 600;
+    color: #54445b;
+  }
+
+  .second-form-slogan {
+    font-family: "Montserrat";
+    font-weight: 600;
+    margin: 3%;
+    font-size: 2em;
+    color: #54445b;
+  }
+
+  .second-form-desc {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.4em;
+    margin: 3%;
+    line-height: 30px;
+    text-align: center;
+    margin: 2%;
+    margin-bottom: 60px;
+
+    color: #54445b;
+  }
+
+  .block-texts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+  }
+
+  .block-form {
+    flex: 1;
+  }
+
+  .second-form-illustration {
+    width: 80%;
+  }
+
+  .second-form-element {
+    background: #fbd157;
+    border-radius: 44px;
+    padding: 30px 15px;
+  }
+
+  .quemSomos {
+    font-family: "Montserrat";
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #54445b;
+    height: 150px;
+    font-size: 2.6rem;
+    background-color: #fbd157;
+    margin-top: 150px;
+    margin-bottom: 20px;
+  }
+  .visao {
+    display: flex;
+    margin-bottom: 200px;
+  }
+
+  .whoami {
+    text-align: center;
+  }
+
+  #logo-fim {
+    margin-top: -55px;
+    width: 500px;
+    height: 350px;
+  }
+
+  #textoQuemSomos {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 30px;
+    text-align: center;
+    margin: 60px 60px;
+    color: #54445b;
+  }
+
+  footer {
+    width: 100%;
+    background: #fbd157;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .form-newsletter-mobile {
+    display: none;
+  }
+  .curtir{
+      font-size: 2rem;
+      display: flex;
+      justify-content: center;
+      color: #54445b;
+        margin-top: 5%;
+  }
+  @media only screen and (max-width: 1120px) {
+    .girl-img {
+      display: none;
+    }
+
+    .main-title {
+      margin: 10% 5%;
+      text-align: right;
+      font-size: 3.5rem;
+      line-height: 60px;
+    }
+
+    .corner-img {
+      width: 70%;
+    }
+
+    .presentation-content {
+      width: 90vw;
+      align-items: flex-end;
+      justify-content: flex-end;
+      margin-top: 10%;
+    }
+
+    .form-newsletter {
+      display: none;
+    }
+
+    .form-newsletter-mobile {
+      padding: 15% 0;
+      display: block;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      align-self: center;
+    }
+
+    .person-img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .visao {
+      flex-direction: column;
+    }
+
+    .second-form {
+      flex-direction: column;
+      padding: 5% 1%;
+    }
+
+    #logo-fim {
+      width: 30%;
+      max-width: 200px;
+
+    }
+
+    .visao {
+      justify-content: center;
+      align-items: center;
+    }
+  }
+    #textoQuemSomos{
+    margin-top: 0px;
+}
+.form-sub-desc{
+    display: flex;
+    justify-content: center;
+    margin-left: 120px;
+    margin-right: 100px;
+    font-size: 1.5rem;
+    line-height: 50px;
+}
+.input{
+    width: 70%;
+    display: block;
+    justify-content: center;
+}
+.form-title{
+    font-size: 2.5rem;
+    margin: 2%  7%;
+}
+.form-main-desc{
+    margin-top: 2%;
+    font-size: 2rem;
+}
+.curtir{
+    font-size: 1.5rem;
+    margin-bottom: 2%;
+}
