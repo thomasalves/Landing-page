@@ -309,9 +309,10 @@
     }
 
     .main-title {
-      margin: 10% 5%;
+      margin: 10% 6%;
       text-align: right;
-      font-size: 3.5rem;
+
+      font-size: 2rem;
       line-height: 60px;
     }
 
@@ -341,8 +342,8 @@
 
     .person-img {
       display: block;
-      margin-left: auto;
-      margin-right: auto;
+      margin-left: 0;
+      justify-content: center;
     }
 
     .visao {
@@ -352,6 +353,8 @@
     .second-form {
       flex-direction: column;
       padding: 5% 1%;
+      margin-right: 0;
+      justify-content: center;
     }
 
     #logo-fim {
@@ -369,27 +372,77 @@
     margin-top: 0px;
 }
 .form-sub-desc{
-    display: flex;
+
     justify-content: center;
-    margin-left: 120px;
-    margin-right: 100px;
+
+
     font-size: 1.5rem;
     line-height: 50px;
 }
+
+.form-calltoaction{
+
+  justify-content: center;
+}
 .input{
     width: 70%;
-    display: block;
+
     justify-content: center;
 }
 .form-title{
-    font-size: 2.5rem;
-    margin: 2%  7%;
+
+    justify-content: center;
+    font-size: 1.5rem;
+
+
 }
 .form-main-desc{
     margin-top: 2%;
     font-size: 2rem;
+    width: 70%;
 }
 .curtir{
     font-size: 1.5rem;
     margin-bottom: 2%;
+}
+
+.call{
+  font-size: 3rem;
+  display: flex;
+  justify-content: center;
+}
+
+.second-form-desc{
+  display: flex;
+  justify-content: center;
+
+
+}
+.block-form{
+  justify-content: center;
+  margin-right: 0;
+}
+.block-texts{
+  margin-right: 0;
+}
+.form-title2{
+  color: #54445b;
+  display: block;
+  justify-content: center;
+  font-size: 2.5rem;
+  margin-top: 30px;
+
+}
+.btn{
+  width: 60%;
+}
+.form-sub-desc2{
+  color: #54445b;
+
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-family: "Montserrat";
+  font-size: 1.3rem;
+  line-height: 50px;
 }
