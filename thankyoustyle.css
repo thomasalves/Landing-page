@@ -342,8 +342,7 @@
 
     .person-img {
       display: block;
-      margin-left: auto;
-      margin-right: auto;
+      margin-left: 0;
       justify-content: center;
     }
 
@@ -373,11 +372,11 @@
     margin-top: 0px;
 }
 .form-sub-desc{
-    display: block;
+
     justify-content: center;
-    width: 400px;
-  margin-right: 0;
-    font-size: 2rem;
+    width: 300px;
+
+    font-size: 1.5rem;
     line-height: 50px;
 }
 
@@ -387,11 +386,11 @@
 }
 .input{
     width: 70%;
-    display: block;
+
     justify-content: center;
 }
 .form-title{
-    display: block;
+
     justify-content: center;
     font-size: 1.5rem;
     padding: 10%;
@@ -439,11 +438,11 @@
 }
 .form-sub-desc2{
   color: #54445b;
-  display: block;
-  text-align: center;
+;
+  display: flex;
   justify-content: center;
-  width: 400px;
-margin-right: 0;
-  font-size: 2rem;
+  text-align: center;
+  font-family: "Montserrat";
+  font-size: 1.3rem;
   line-height: 50px;
 }
