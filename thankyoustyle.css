@@ -311,7 +311,7 @@
     .main-title {
       margin: 10% 8%;
       text-align: right;
-      margin-right: 90px;
+
       font-size: 2rem;
       line-height: 60px;
     }
@@ -372,8 +372,7 @@
 .form-sub-desc{
     display: flex;
     justify-content: center;
-    margin-right: 150px;
-    margin-left: 50px;
+
     font-size: 2rem;
     line-height: 50px;
 }
@@ -387,7 +386,7 @@
     justify-content: center;
     font-size: 1.5rem;
     padding: 10%;
-    margin-right:100px;
+
 }
 .form-main-desc{
     margin-top: 2%;
@@ -402,18 +401,10 @@
   font-size: 3rem;
   display: flex;
   justify-content: center;
-  margin-right: 150px;
 }
-.block-texts{
-  margin-right: 90px;
 
-}
 .second-form-desc{
   display: flex;
   justify-content: center;
-  margin-left: 50px;
-}
 
-.block-form{
-  margin-right: 50px;
 }
