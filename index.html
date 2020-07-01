@@ -177,6 +177,7 @@
             class="input"
             required
           />
+          <input name="type" type="hidden" value="1" />
           <button type="submit" class="btn btn-yellow">
 >>>>>>> origin
             Baixe agora o pdf!
@@ -214,10 +215,17 @@
             type="text"
             placeholder="Nome e Sobrenome *"
             class="input"
+            name="name"
             pattern="^\D{2,}\s[\D\s]{2,}$"
             required
           />
-          <input placeholder="E-mail *" class="input" type="email" required />
+          <input
+            placeholder="E-mail *"
+            name="email"
+            class="input"
+            type="email"
+            required
+          />
           <input type="hidden" value="1" name="type" />
           <button type="submit" class="btn btn-yellow">
             Baixe agora o pdf!
@@ -251,10 +259,17 @@
             type="text"
             placeholder="Nome e Sobrenome *"
             class="input"
+            name="name"
             pattern="^\D{2,}\s[\D\s]{2,}$"
             required
           />
-          <input type="email" required placeholder="E-mail *" class="input" />
+          <input
+            type="email"
+            required
+            placeholder="E-mail *"
+            class="input"
+            name="email"
+          />
           <input type="hidden" value="2" name="type" />
           <button type="submit" class="btn btn-purple">
             Baixe agora o pdf!
