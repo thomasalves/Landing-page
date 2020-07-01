@@ -98,7 +98,7 @@ button {
 .form-sub-desc {
   font-family: "Roboto";
   color: #54445b;
-  text-align: left;
+  text-align: center;
   font-size: 26px;
   margin: 8%;
   line-height: 30px;
@@ -200,7 +200,7 @@ form {
   font-size: 1.4em;
   margin: 3%;
   line-height: 30px;
-  text-align: left;
+  text-align: center;
   margin: 2%;
 
   color: #54445b;
