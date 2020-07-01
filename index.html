@@ -84,7 +84,7 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;900&family=Roboto:wght@400;900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="/style.css"" />
     <title>U-Do Brasil</title>
 
     <!--CONECXÃO COM MAILCHIMP-->
@@ -95,7 +95,8 @@
       m.async=1,m.src=i,
       p.parentNode.insertBefore(m,p)
       }
-      (document,"script","https://chimpstatic.com/mcjs-connected/js/users/c8a05d1e925006be83239c56e/e731cdc1b1c55558e13718114.js");</script>
+      (document,"script","https://chimpstatic.com/mcjs-connected/js/users/c8a05d1e925006be83239c56e/e731cdc1b1c55558e13718114.js");
+      </script>
 
 
   </head>
@@ -158,7 +159,7 @@
         <form method="POST" action="#">
           <input name="name" type="text" pattern="^\D{2,}\s[\D\s]{2,}$" title="Digite seu nome completo" placeholder="Nome e Sobrenome *" class="input" required />
           <input name="email" type="email" title="Digite um email válido" placeholder="E-mail *" class="input" required />
-          <button type="submit" class="btn btn-yellow">
+          <button type="submit" class="btn btn-yellow" onclick=location.href='./thankyou1.html'>
             Baixe agora o pdf!
           </button>
         </form>
@@ -187,7 +188,7 @@
         <form action="#" class="first-form">
           <input type="text" placeholder="Nome e Sobrenome *" class="input" />
           <input type="text" placeholder="E-mail *" class="input" />
-          <button type="submit" class="btn btn-yellow">
+          <button type="submit" class="btn btn-yellow" onclick=location.href='./thankyou1.html' >
             Baixe agora o pdf!
           </button>
         </form>
@@ -210,9 +211,9 @@
           class="second-form-illustration"
         />
         <form action="#" class="second-form-element">
-          <input type="text" placeholder="Nome e Sobrenome *" class="input" />
-          <input type="text" placeholder="E-mail *" class="input" />
-          <button type="submit" class="btn btn-purple">
+          <input name="name" type="text" pattern="^\D{2,}\s[\D\s]{2,}$" title="Digite seu nome completo" placeholder="Nome e Sobrenome *" class="input" required />
+          <input name="email" type="email" title="Digite um email válido" placeholder="E-mail *" class="input" required />
+          <button type="submit" class="btn btn-purple" onclick=location.href='./thankyou2.html'>
             Baixe agora o pdf!
           </button>
         </form>
@@ -234,7 +235,7 @@
           ninguém é de ferro, não é mesmo?<br />
           Por aqui, tudo é entregue de forma direta e sem rodeios, tudo feito
           pensado em quem não tem tempo a perder e não quer ficar parado. <br />
-          Vamos nessa?
+          <strong>Vamos nessa? </strong>
         </p>
       </div>
     </section>
