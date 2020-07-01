@@ -353,6 +353,8 @@
     .second-form {
       flex-direction: column;
       padding: 5% 1%;
+      margin-right: 0;
+      justify-content: center;
     }
 
     #logo-fim {
@@ -407,8 +409,10 @@
   display: flex;
   justify-content: center;
 
+
 }
 .block-form{
+  justify-content: center;
   margin-right: 0;
 }
 .block-texts{
