@@ -120,6 +120,15 @@
     text-align: center;
     margin: 4%;
   }
+  .form-sub-des2{
+    font-family: "Roboto";
+    color: #54445b;
+    text-align: center;
+    font-size: 26px;
+    margin: 2%;
+    line-height: 30px;
+    margin-top: 20px;
+  }
 
   .input {
     display: block;
