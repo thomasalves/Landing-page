@@ -89,16 +89,18 @@
 
     <!--CONECXÃO COM MAILCHIMP-->
     <script id="mcjs">
-    !function(c,h,i,m,p){
-      m=c.createElement(h),
-      p=c.getElementsByTagName(h)[0],
-      m.async=1,m.src=i,
-      p.parentNode.insertBefore(m,p)
-      }
-      (document,"script","https://chimpstatic.com/mcjs-connected/js/users/c8a05d1e925006be83239c56e/e731cdc1b1c55558e13718114.js");
-      </script>
-
-
+      !(function (c, h, i, m, p) {
+        (m = c.createElement(h)),
+          (p = c.getElementsByTagName(h)[0]),
+          (m.async = 1),
+          (m.src = i),
+          p.parentNode.insertBefore(m, p);
+      })(
+        document,
+        "script",
+        "https://chimpstatic.com/mcjs-connected/js/users/c8a05d1e925006be83239c56e/e731cdc1b1c55558e13718114.js"
+      );
+    </script>
   </head>
   <body>
     <!-- Google Tag Manager (noscript) -->
@@ -156,10 +158,27 @@
         <h4 class="form-calltoaction">
           Crie conteúdo de qualidade de forma simples!
         </h4>
-        <form method="POST" action="#">
-          <input name="name" type="text" pattern="^\D{2,}\s[\D\s]{2,}$" title="Digite seu nome completo" placeholder="Nome e Sobrenome *" class="input" required />
-          <input name="email" type="email" title="Digite um email válido" placeholder="E-mail *" class="input" required />
-          <button type="submit" class="btn btn-yellow" onclick=location.href='./thankyou1.html'>
+
+        <form method="POST" action="http://apiudo-com.umbler.net">
+          <input
+            name="name"
+            type="text"
+            pattern="^\D{2,}\s[\D\s]{2,}$"
+            title="Digite seu nome completo"
+            placeholder="Nome e Sobrenome *"
+            class="input"
+            required
+          />
+          <input
+            name="email"
+            type="email"
+            title="Digite um email válido"
+            placeholder="E-mail *"
+            class="input"
+            required
+          />
+          <button type="submit" class="btn btn-yellow">
+>>>>>>> origin
             Baixe agora o pdf!
           </button>
         </form>
@@ -185,10 +204,22 @@
         hoje mesmo!
       </p>
       <div class="form-container">
-        <form action="#" class="first-form">
-          <input type="text" placeholder="Nome e Sobrenome *" class="input" />
-          <input type="text" placeholder="E-mail *" class="input" />
-          <button type="submit" class="btn btn-yellow" onclick=location.href='./thankyou1.html' >
+
+        <form
+          action="http://apiudo-com.umbler.net"
+          method="POST"
+          class="first-form"
+        >
+          <input
+            type="text"
+            placeholder="Nome e Sobrenome *"
+            class="input"
+            pattern="^\D{2,}\s[\D\s]{2,}$"
+            required
+          />
+          <input placeholder="E-mail *" class="input" type="email" required />
+          <input type="hidden" value="1" name="type" />
+          <button type="submit" class="btn btn-yellow">
             Baixe agora o pdf!
           </button>
         </form>
@@ -210,10 +241,22 @@
           alt="Ilustração de pessoas andando e mexendo no celular."
           class="second-form-illustration"
         />
-        <form action="#" class="second-form-element">
-          <input name="name" type="text" pattern="^\D{2,}\s[\D\s]{2,}$" title="Digite seu nome completo" placeholder="Nome e Sobrenome *" class="input" required />
-          <input name="email" type="email" title="Digite um email válido" placeholder="E-mail *" class="input" required />
-          <button type="submit" class="btn btn-purple" onclick=location.href='./thankyou2.html'>
+
+        <form
+          action="http://apiudo-com.umbler.net"
+          method="POST"
+          class="second-form-element"
+        >
+          <input
+            type="text"
+            placeholder="Nome e Sobrenome *"
+            class="input"
+            pattern="^\D{2,}\s[\D\s]{2,}$"
+            required
+          />
+          <input type="email" required placeholder="E-mail *" class="input" />
+          <input type="hidden" value="2" name="type" />
+          <button type="submit" class="btn btn-purple">
             Baixe agora o pdf!
           </button>
         </form>
