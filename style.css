@@ -267,15 +267,54 @@ form {
 
 footer {
   width: 100%;
+  height: 120px;
   background: #fbd157;
   display: flex;
-  justify-content: center;
   align-items: center;
 }
+
+.redessociais{
+  display: flex;
+  flex-direction: column;
+
+
+
+}
+.sociais{
+  margin-left: 20px;
+  display: flex;
+  text-align: center;
+  justify-content: left;
+  align-items: center;
+  width: 600px;
+
+
+}
+.redes{
+  width: 6%;
+  margin: 1%;
+
+}
+a{
+  text-decoration: none;
+  color: #54445b;
+  font-size: 25px;
+  font-size: 1.rem;
+  font-family: "Roboto"
+
+}
+#log-fim{
+  display: flex;
+  justify-content: center;
+
+}
+
+
 
 .form-newsletter-mobile {
   display: none;
 }
+
 
 @media only screen and (max-width: 1120px) {
   .girl-img {
@@ -337,7 +376,22 @@ footer {
     justify-content: center;
     align-items: center;
   }
-}
-.person-img {
-  margin-top: 30px;
+  .person-img {
+    margin-top: 30px;
+  }
+  .redes{
+    width: 10%;
+    margin-right: 10px;
+
+  }
+  a{
+    font-size: 1.2rem;
+
+  }
+
+  .sociais{
+    width: 200px;
+  }
+
+
 }
