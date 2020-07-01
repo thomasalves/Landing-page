@@ -93,7 +93,8 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;900&family=Roboto:wght@400;900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="/style.css"" />
+    <link rel="stylesheet" href="/style.css" />
+    <script src="./popup.js"></script>
     <title>U-Do Brasil</title>
 
     <!--CONECXÃO COM MAILCHIMP-->
@@ -130,6 +131,50 @@
   &noscript=1"
       />
     </noscript>
+    <div id="myModal" class="modal">
+      <!-- Modal content -->
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <img
+          src="./assets/topo-desktop-1.svg"
+          alt="Imagem lateral, Decoração"
+          class="corner-img-modal"
+        />
+        <div class="align-title">
+          <span class="modal-title"
+            >EIII!<br />Saindo sem se<br />
+            despedir?</span
+          >
+        </div>
+        <p class="modal-desc">
+          <b>Por que não deixa seu contato pra gente se falar?</b><br /><i
+            >Prometemos não ser corrente do zap!</i
+          >
+        </p>
+        <form method="POST" action="http://apiudo-com.umbler.net/1">
+          <input
+            name="name"
+            type="text"
+            pattern="^\D{2,}\s[\D\s]{2,}$"
+            title="Digite seu nome completo"
+            placeholder="Nome e Sobrenome *"
+            class="input"
+            required
+          />
+          <input
+            name="email"
+            type="email"
+            title="Digite um email válido"
+            placeholder="E-mail *"
+            class="input"
+            required
+          />
+          <button type="submit" class="btn btn-purple">
+            Enviar
+          </button>
+        </form>
+      </div>
+    </div>
 
     <div class="corner-img-container">
       <img
@@ -160,10 +205,9 @@
         <h1 class="form-title">A hora é agora!</h1>
         <h3 class="form-main-desc">Chegou a sua vez de brilhar!</h3>
         <p class="form-sub-desc">
-          Que você leva jeito a gente já sabe! Então criamos
-          um material gratuito em PDF cheio de dicas e ideias
-          ara te ajudar a criar seus primeiros conteúdos.
-          Vem conferir o jeito U - do de fazer!
+          Que você leva jeito a gente já sabe! Então criamos um material
+          gratuito em PDF cheio de dicas e ideias ara te ajudar a criar seus
+          primeiros conteúdos. Vem conferir o jeito U - do de fazer!
         </p>
         <h4 class="form-calltoaction">
           Comece agora a criar conteúdo de forma simples!
@@ -189,7 +233,6 @@
           />
           <button type="submit" class="btn btn-yellow">
             Baixe gratuitamente agora!
-
           </button>
         </form>
       </div>
@@ -209,10 +252,9 @@
         Comece agora a criar conteúdo de forma simples!
       </h4>
       <p class="form-sub-desc">
-        Que você leva jeito a gente já sabe! Então criamos
-        um material gratuito em PDF cheio de dicas e ideias
-        ara te ajudar a criar seus primeiros conteúdos.
-        Vem conferir o jeito U - do de fazer!
+        Que você leva jeito a gente já sabe! Então criamos um material gratuito
+        em PDF cheio de dicas e ideias ara te ajudar a criar seus primeiros
+        conteúdos. Vem conferir o jeito U - do de fazer!
       </p>
       <div class="form-container">
         <form
@@ -247,12 +289,14 @@
         <h1 class="second-form-title">Perfis</h1>
         <h3 class="second-form-slogan">Que tipo de influencer você vai ser?</h3>
         <p class="second-form-desc">
-          Já se perguntou como fazer para se tornar um “blogueirinhx” de respeito
-          e receber os tão sonhados mimos? E se, além disso, você ainda conhecer
-          os diversos nichos e perfis de influenciadores digitais? Então dá uma
-          olhada nesse guia e já começa a pensar em qual deles você se encaixa melhor!
-
+          Já se perguntou como fazer para se tornar um “blogueirinhx” de
+          respeito e receber os tão sonhados mimos? E se, além disso, você ainda
+          conhecer os diversos nichos e perfis de influenciadores digitais?
+          Então dá uma olhada nesse guia e já começa a pensar em qual deles você
+          se encaixa melhor!
+        </p>
       </div>
+
       <div class="block-form">
         <img
           src="./assets/people-desktop-1.svg"
@@ -260,12 +304,12 @@
           class="second-form-illustration"
         />
         <form
-        action="http://apiudo-com.umbler.net/2"
-        method="POST"
-        class="second-form-element"
+          action="http://apiudo-com.umbler.net/2"
+          method="POST"
+          class="second-form-element"
         >
-        <h1 class="second-form-desc">Você ainda não sabe seu perfil?</h1>
-        <input
+          <h1 class="second-form-desc">Você ainda não sabe seu perfil?</h1>
+          <input
             type="text"
             placeholder="Nome e Sobrenome *"
             class="input"
@@ -296,29 +340,37 @@
       <div class="visao">
         <img id="logo-fim" src="./assets/logo.svg" alt="Logo" />
         <p id="textoQuemSomos">
-          Um canal de conteúdo criativo e sem rodeios, com dicas sobre o mundo on e offline,
-          redes sociais, notícias e diversão: esse sempre foi o nosso sonho e vê-lo se tornando
-          realidade nos enche de orgulho.O U - do é isso: material entregue de forma direta e sem
-          rodeios,  feito para quem não tem tempo a perder e não quer ficar parado.<br />
+          Um canal de conteúdo criativo e sem rodeios, com dicas sobre o mundo
+          on e offline, redes sociais, notícias e diversão: esse sempre foi o
+          nosso sonho e vê-lo se tornando realidade nos enche de orgulho.O U -
+          do é isso: material entregue de forma direta e sem rodeios, feito para
+          quem não tem tempo a perder e não quer ficar parado.<br />
           <strong>Vem, que o resto a gente te conta no caminho!</strong>
-
         </p>
       </div>
     </section>
 
     <footer>
-      <div class="redessociais" >
+      <div class="redessociais">
         <div class="sociais">
-        <img class="redes" src="https://image.flaticon.com/icons/svg/2111/2111398.svg" alt="Logo Facebook">
-        <a href="https://www.facebook.com/u.dobrasil34/">U-do brasil</a>
+          <img
+            class="redes"
+            src="https://image.flaticon.com/icons/svg/2111/2111398.svg"
+            alt="Logo Facebook"
+          />
+          <a href="https://www.facebook.com/u.dobrasil34/">U-do brasil</a>
+        </div>
+        <div class="sociais">
+          <img
+            class="redes"
+            src="https://image.flaticon.com/icons/svg/2111/2111463.svg"
+            alt="Logo Instagram"
+          />
+          <a href="https://www.instagram.com/u.dobrasil/">@u.dobrasil</a>
+        </div>
       </div>
-      <div class="sociais">
-        <img class="redes" src="https://image.flaticon.com/icons/svg/2111/2111463.svg" alt="Logo Instagram">
-        <a  href="https://www.instagram.com/u.dobrasil/">@u.dobrasil</a>
-      </div>
-      </div>
-        <div id="log-fim">
-          <img src="./assets/brand-without-text.svg" alt="Logo do U-Do." />
+      <div id="log-fim">
+        <img src="./assets/brand-without-text.svg" alt="Logo do U-Do." />
       </div>
     </footer>
   </body>
