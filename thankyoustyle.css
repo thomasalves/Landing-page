@@ -344,6 +344,7 @@
       display: block;
       margin-left: auto;
       margin-right: auto;
+      justify-content: center;
     }
 
     .visao {
@@ -372,11 +373,17 @@
     margin-top: 0px;
 }
 .form-sub-desc{
-    display: flex;
+    display: block;
     justify-content: center;
-
+    width: 400px;
+  margin-right: 0;
     font-size: 2rem;
     line-height: 50px;
+}
+
+.form-calltoaction{
+  width: 400px;
+  justify-content: center;
 }
 .input{
     width: 70%;
@@ -384,7 +391,7 @@
     justify-content: center;
 }
 .form-title{
-    display: flex;
+    display: block;
     justify-content: center;
     font-size: 1.5rem;
     padding: 10%;
@@ -393,6 +400,7 @@
 .form-main-desc{
     margin-top: 2%;
     font-size: 2rem;
+    width: 70%;
 }
 .curtir{
     font-size: 1.5rem;
@@ -417,4 +425,26 @@
 }
 .block-texts{
   margin-right: 0;
+}
+.form-title2{
+  color: #54445b;
+  display: block;
+  justify-content: center;
+  font-size: 2.5rem;
+  margin-top: 30px;
+
+}
+.btn{
+  width: 60%;
+}
+.form-sub-desc2{
+  color: #54445b;
+  display: block;
+  margin-left: 160px;
+  text-align: center;
+  justify-content: center;
+  width: 400px;
+margin-right: 0;
+  font-size: 2rem;
+  line-height: 50px;
 }
