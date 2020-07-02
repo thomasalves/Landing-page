@@ -1,7 +1,7 @@
-function validacao1(field, nome) {
+function validacao1(field, name) {
     usuario = field.value.substring(0, field.value.indexOf("@"));
     dominio = field.value.substring(field.value.indexOf("@")+ 1, field.value.length);
-    capturando = document.getElementById('nome').value;
+    capturando = name.value.substring()
     console.log(capturando)
 
     if ((usuario.length >=1) &&
@@ -20,10 +20,10 @@ function validacao1(field, nome) {
 
     }
 
-    function validacao2(field) {
+    function validacao2(field, name) {
         usuario = field.value.substring(0, field.value.indexOf("@"));
         dominio = field.value.substring(field.value.indexOf("@")+ 1, field.value.length);
-        capturando = document.getElementById('nome').value;
+        capturando = name.value.substring()
         console.log(capturando)
 
         if ((usuario.length >=1) &&
