@@ -350,18 +350,23 @@ form {
 
 }
 
+
 /* Slides */
 .mySlides {
   display: none;
+  transition: display 1s;
   padding: 80px;
   text-align: center;
   display: flex;
+
 }
 .self{
     width: 25%;
+
     border-radius: 100px;
     border: 1px solid black;
     margin-bottom: 20px;
+
 }
 
 
@@ -369,6 +374,7 @@ q {
   font-style: italic;
   font-size: 25px;
   margin-top: 100px;
+  transition:  800ms;
 }
 
 
@@ -376,7 +382,10 @@ q {
   color: #54445b;
   margin-top: 20px;
   font-size: 20px;
+  transition: opacity 800ms;
 }
+
+
 
 footer {
   width: 100%;
