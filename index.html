@@ -2,6 +2,8 @@
 <html lang="en">
   <head>
     <!-- Google Tag Manager -->
+
+
     <script>
       (function (w, d, s, l, i) {
         w[l] = w[l] || [];
@@ -112,6 +114,9 @@
         "https://chimpstatic.com/mcjs-connected/js/users/c8a05d1e925006be83239c56e/e731cdc1b1c55558e13718114.js"
       );
     </script>
+    <script src="./baixar.js"></script>
+    <script src="slideshow.js"></script>
+
   </head>
   <body>
     <!-- Google Tag Manager (noscript) -->
@@ -217,8 +222,9 @@
           Comece agora a criar conteúdo de forma simples!
         </h4>
 
-        <form method="POST" action="http://apiudo-com.umbler.net/1">
+        <form name="f2" method="POST" action="http://apiudo-com.umbler.net/1">
           <input
+            id="nome"
             name="name"
             type="text"
             pattern="^\D{2,}\s[\D\s]{2,}$"
@@ -235,7 +241,7 @@
             class="input"
             required
           />
-          <button type="submit" class="btn btn-yellow">
+          <button type="submit" class="btn btn-yellow" onclick="validacao1(f2.email)">
             Baixe gratuitamente agora!
           </button>
         </form>
@@ -265,23 +271,27 @@
           action="http://apiudo-com.umbler.net/1"
           method="POST"
           class="first-form"
+          name="f2"
         >
-          <input
-            type="text"
-            placeholder="Nome e Sobrenome *"
-            class="input"
-            name="name"
-            pattern="^\D{2,}\s[\D\s]{2,}$"
-            required
-          />
-          <input
-            placeholder="E-mail *"
-            name="email"
-            class="input"
-            type="email"
-            required
-          />
-          <button type="submit" class="btn btn-yellow">
+        <input
+        id="name"
+        name="name"
+        type="text"
+        pattern="^\D{2,}\s[\D\s]{2,}$"
+        title="Digite seu nome completo"
+        placeholder="Nome e Sobrenome *"
+        class="input"
+        required
+      />
+      <input
+        name="email"
+        type="email"
+        title="Digite um email válido"
+        placeholder="E-mail *"
+        class="input"
+        required
+      />
+      <button type="submit" class="btn btn-yellow" onclick="validacao1(f2.email, f2.nome)">
             Baixe gratuitamente agora!
           </button>
         </form>
@@ -311,24 +321,28 @@
           action="http://apiudo-com.umbler.net/2"
           method="POST"
           class="second-form-element"
+          name="f1"
         >
           <h1 class="second-form-desc">Você ainda não sabe seu perfil?</h1>
           <input
-            type="text"
-            placeholder="Nome e Sobrenome *"
-            class="input"
-            name="name"
-            pattern="^\D{2,}\s[\D\s]{2,}$"
-            required
-          />
-          <input
-            type="email"
-            required
-            placeholder="E-mail *"
-            class="input"
-            name="email"
-          />
-          <button type="submit" class="btn btn-purple">
+          id="nome"
+          name="name"
+          type="text"
+          pattern="^\D{2,}\s[\D\s]{2,}$"
+          title="Digite seu nome completo"
+          placeholder="Nome e Sobrenome *"
+          class="input"
+          required
+        />
+        <input
+          name="email"
+          type="email"
+          title="Digite um email válido"
+          placeholder="E-mail *"
+          class="input"
+          required
+        />
+        <button type="submit" class="btn btn-yellow" onclick="validacao1(f1.email)">
             Baixe agora o pdf!
           </button>
         </form>
@@ -354,7 +368,7 @@
       </div>
     </section>
 
-    <script src="slideshow.js"></script>
+
 
 <div class="slideshow-container">
 
