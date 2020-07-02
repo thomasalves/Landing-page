@@ -241,7 +241,7 @@ form {
 }
 .visao {
   display: flex;
-  margin-bottom: 200px;
+  margin-bottom: 40px;
 }
 
 .whoami {
@@ -261,8 +261,43 @@ form {
   font-size: 26px;
   line-height: 30px;
   text-align: center;
-  margin: 50px 60px;
+  margin: 30px 60px;
   color: #54445b;
+}
+
+
+/* Slideshow container */
+.slideshow-container {
+  position: relative;
+
+}
+
+/* Slides */
+.mySlides {
+  display: none;
+  padding: 80px;
+  text-align: center;
+  display: flex;
+}
+.self{
+    width: 25%;
+    border-radius: 100px;
+    border: 1px solid black;
+    margin-bottom: 20px;
+}
+
+
+q {
+  font-style: italic;
+  font-size: 25px;
+  margin-top: 100px;
+}
+
+
+.author {
+  color: #54445b;
+  margin-top: 20px;
+  font-size: 20px;
 }
 
 footer {
@@ -393,5 +428,7 @@ a{
     width: 200px;
   }
 
+  .self{
+    width: 40%;
 
 }
