@@ -371,7 +371,10 @@ form {
 
 
 q {
-  font-style: italic;
+  line-height: 30px;
+  font-family: "Roboto";
+
+  font-weight: 100;
   font-size: 25px;
   margin-top: 100px;
   transition:  800ms;
@@ -379,6 +382,7 @@ q {
 
 
 .author {
+  font-family: "Roboto";
   color: #54445b;
   margin-top: 20px;
   font-size: 20px;
@@ -416,7 +420,7 @@ footer {
   flex-direction: column;
 }
 .sociais {
-  margin-left: 20px;
+  margin-left: -150px;
   display: flex;
   text-align: center;
   justify-content: left;
@@ -433,10 +437,12 @@ a {
   font-size: 25px;
   font-size: 1rem;
   font-family: "Roboto";
+
 }
 #log-fim {
   display: flex;
   justify-content: center;
+  margin-left: 170px;
 }
 
 .form-newsletter-mobile {
@@ -497,6 +503,7 @@ a {
   #logo-fim {
     width: 30%;
     max-width: 200px;
+
   }
 
   .visao {
@@ -507,15 +514,18 @@ a {
     margin-top: 30px;
   }
   .redes {
-    width: 10%;
+    width: 15%;
     margin-right: 10px;
   }
   a {
     font-size: 1.2rem;
+
+
   }
 
   .sociais {
     width: 200px;
+    margin-left: -60px;
   }
 
 
@@ -523,4 +533,13 @@ a {
     width: 40%;
 
 }
+.log-fim{
+  margin-left: -2000px;
+  justify-content: left;
+}
+.link{
+  margin-right: 0px;
+}
+
+
 }
